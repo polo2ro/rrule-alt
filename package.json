@@ -1,0 +1,64 @@
+{
+  "_from": "git://github.com/arolson101/rrule-alt.git#050528987a5d46579d267c94db46868059b8eae9",
+  "_id": "rrule-alt@2.2.4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/rrule-alt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/arolson101/rrule-alt.git#050528987a5d46579d267c94db46868059b8eae9",
+    "rawSpec": "git://github.com/arolson101/rrule-alt.git#050528987a5d46579d267c94db46868059b8eae9",
+    "saveSpec": "git://github.com/arolson101/rrule-alt.git#050528987a5d46579d267c94db46868059b8eae9",
+    "fetchSpec": "git://github.com/arolson101/rrule-alt.git",
+    "gitCommittish": "050528987a5d46579d267c94db46868059b8eae9"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/arolson101/rrule-alt.git#050528987a5d46579d267c94db46868059b8eae9",
+  "_spec": "git://github.com/arolson101/rrule-alt.git#050528987a5d46579d267c94db46868059b8eae9",
+  "_where": "/home/paul/git/gadael",
+  "author": {
+    "name": "Jakub Roztocil and Lars Schöning"
+  },
+  "bugs": {
+    "url": "https://github.com/arolson101/rrule-alt/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "JavaScript library for working with recurrence rules for calendar dates.",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "homepage": "https://github.com/arolson101/rrule-alt",
+  "keywords": [
+    "dates",
+    "recurrences",
+    "calendar",
+    "icalendar",
+    "rfc"
+  ],
+  "main": "lib/rrule",
+  "name": "rrule-alt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arolson101/rrule-alt.git"
+  },
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "standard": {
+    "ignore": [
+      "demo"
+    ]
+  },
+  "types": "lib/rrule.d.ts",
+  "version": "2.2.4"
+}
